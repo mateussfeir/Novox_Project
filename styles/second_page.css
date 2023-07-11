@@ -1,0 +1,72 @@
+.como_funciona {
+    padding-top: 50px;
+    margin-top: 600px;
+    height: 0px;
+}
+
+
+.title {
+    font-size: 28px;
+    text-align: center;
+    color:rgb(107, 43, 226);
+}
+
+/* Second session contains all of the informatinos since the
+symbols (1,2 and 3), texts and the Pig image. */
+
+.second_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Div second session contains all of the informatinos since the
+symbols (1,2 and 3), texts and the bank pig image. */
+
+.div_second_page {
+    display: flex;
+    margin-left: 12%;
+}
+
+/* Contains everything exepct for the bank pig image. */
+
+.aside_two {
+    align-items: center;
+    margin-top: 220px;
+    margin-bottom: 80px;
+}
+
+/* Contains the symbols (1,2 and 3) and the texts. */
+
+.box_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Isolated symbol (1, 2 and 3). */
+
+.symbol {
+    width: 45px;
+    margin-right: 20px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+/* Isolated text */
+
+.text_2 {
+    margin-left: 0px;
+}
+
+.text_2 h1 {
+    font-size: 18px;
+    margin: 0;
+    display: block;
+    white-space: nowrap;
+}
+
+.pig_image {
+    margin-left: 30px;
+  }
+

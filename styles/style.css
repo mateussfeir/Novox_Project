@@ -1,0 +1,77 @@
+
+body{
+    background-color: white;
+    color: white;
+}
+
+.logo_top{
+    position:static;
+    margin-right: 10px;
+}
+
+.first-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 580px;
+    z-index: -1;
+    background-image: url("/Images/Fundo_Banner_Topo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.led-image {
+    width: 330px; /* Set the width of the image wrapper */
+    margin-left: auto; /* Move the image wrapper to the right by setting the left margin to auto */
+}
+
+.led-image img {
+    width: 100%; /* Set the width of the image to 100% within the wrapper */
+    height: auto; /* Reset the height to maintain the aspect ratio */
+}
+
+.first_page h1{
+    font-size: 30px;
+}
+
+.content_0 {
+    display: flex;
+    align-items: center;
+}
+
+article {
+    flex: 1;
+    margin-top: 120px;
+}
+
+
+aside {
+    flex: 1;
+    margin-left: 45px; /* Adjust the value to add spacing between the image and the text */
+}
+
+aside h1 {
+    margin: 0; /* Reset the margin */
+  }
+  
+  
+.aside_one h1:nth-child(-n+3) {
+    font-weight: bold;
+  }
+  
+.aside_one h1:nth-child(n+4) {
+    font-weight: normal;
+  }
+
+.aside_one h2 {
+    font-size: 18px;
+    background-color: green;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    border-radius: 100px;
+}
+  
+  

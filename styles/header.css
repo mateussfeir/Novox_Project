@@ -1,0 +1,68 @@
+/* setting up the header */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white
+}
+
+/* ul is a unordered list (menu items) */
+
+.logo_top{
+    width: 150px;
+    height: auto;
+    filter: brightness(30%);
+}
+
+.logo_top:hover{
+    transform: scale(1.2);
+}
+
+.menu {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.menu a:hover {
+    transform: scale(1.2);
+}
+
+.menu a:hover img {
+    transform: scale(1.4);
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: rgb(44, 43, 43);
+    margin: 8px;
+}
+
+.menu img {
+    margin: 8px;
+    width: 15px;
+    filter: brightness(30%)
+}
+
+/* Setting the height of the black tranparenty bar */
+/* li = list item */
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+
